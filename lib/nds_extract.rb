@@ -7,7 +7,8 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {}
-  puts nds[0][:name]
+  result = {nds[0][:name] => 1111111}
+  result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
