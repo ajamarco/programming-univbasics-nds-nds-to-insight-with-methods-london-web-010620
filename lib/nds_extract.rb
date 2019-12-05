@@ -7,7 +7,9 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {}
-  result = {nds[0][:name] => 1111111}
+  nds.length.times do |director_index|
+    result[nds[0][:name]] = 1111111
+  end
   result
 end
 
