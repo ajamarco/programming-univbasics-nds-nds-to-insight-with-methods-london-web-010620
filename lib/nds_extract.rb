@@ -7,12 +7,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {}
-  nds.length.times do |nds_index|
-    director = nds[nds_index][:name]
-    total_earnings = gross_for_director(nds[nds_index])
-    #puts total_earnings #nds[nds_index][:name]
-    result[director] = total_earnings
-    result
+
   end
 end
 
