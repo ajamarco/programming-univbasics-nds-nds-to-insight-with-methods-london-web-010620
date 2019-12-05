@@ -12,7 +12,7 @@ def directors_totals(nds)
     total_earnings = gross_for_director(nds[nds_index])
     #puts total_earnings #nds[nds_index][:name]
     result[director] = total_earnings
-    puts result
+    result
   end
 end
 
